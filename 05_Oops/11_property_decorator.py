@@ -2,11 +2,11 @@ class TeaLeaf:
     def __init__(self, age):
         self._age = age
 
-    @property #getter
+    @property #getter used to get values out of class
     def age(self):
         return self._age + 2
 
-    @age.setter  #setter
+    @age.setter  #setter used to set values inside the class
     def age(self,age):
         if 1<= age<= 5:
             self._age=age

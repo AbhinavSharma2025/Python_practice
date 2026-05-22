@@ -1,3 +1,4 @@
+#Method resolution order
 class A:
     label="A: Base class"
 

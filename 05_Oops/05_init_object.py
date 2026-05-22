@@ -12,4 +12,4 @@ order=ChaiOrder("Masala",1200)
 print(order.summry())
 
 order_two=ChaiOrder("Ginger",200)
-print(order_two.summry())
+print(order_two.summry()) 
